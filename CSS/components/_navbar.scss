@@ -1,0 +1,34 @@
+
+#mainNavbar{
+  font-weight: 100;
+
+  & .navbar-brand{
+    
+    color:rgb(255, 215, 215);
+    font-size: 1.4rem;
+  }
+  & .navbar-brand:hover{
+    color:$white;
+}
+}
+#mainNavbar .nav-link{
+  color: $white;
+}
+#mainNavbar .nav-link:hover{
+  color: $nav-hover;
+}
+.dropdown-menu {
+  background-color: rgb(44, 44, 44);/// nie dziala bg-dark w indeksie na tlo dropdown
+  
+}
+.dropdown-item{
+  color: $white;
+  font-weight: 100;
+  &:hover{
+    color: $secondary-orange;
+  }
+}
+
+.nav-empty-space{
+  height: 60px;
+}

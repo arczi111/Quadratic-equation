@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>PROGRAM</title>
+  </head>
+  
+  <body>
+    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+      <a href="../index.html" class="navbar-brand d-flex align-items-center "><img class=" mr-2" src="../imgs/logo_50.png" alt="Logo"/>ABOUT ME</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-label="Toggle nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a href="#" class="nav-link">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">OFFER</a>
+          </li>
+          <li class="nav-item">
+            <a href="../programs/index.html" class="nav-link">PROGRAMS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SEE MORE
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="container-fluid px-0">
+      <div  class="nav-empty-space row"> </div>
+      <div class="row justify-content-center my-5 p-4">
+        <h1> Quadratic square program</h1>
+      </div>
+      <div  class="div-functionDefinition row ">
+        <div class="col-12 text-center ">
+          <h4 >1.GENERAL FORM</h4>
+          <p class="lead">Please provide respective numbers: <span class="ml-2">ax<sup>2</sup></span>&plusmn; bx &plusmn; c = 0.</p>
+        </div>
+      </div>
+      <div class="programContainer row justify-content-center">
+        <div class="row justify-content-center">
+        <div class="col-6 "> 
+          <div class="row align-items-center mb-4 ">
+            <label >"a value: "</label><input type="number" class="col-sm-4 ">
+          </div>
+          <div class="row align-items-center mb-4 ">
+            <label>"b value: "</label><input type="number" class="col-sm-4">
+          </div>
+          <div class="row align-items-center mb-4">
+            <label >"c value:  "</label><input type="number" class="col-sm-4">
+          </div>
+          </div>
+          <!-- <div class="row align-items-center mb-4">
+            <label >"exprexxion:  "</label><input id="input-single-expression" type="text" class="col-sm-4">
+          </div> -->
+          <div class="row justify-content-center "><!--nie wiem czemu nie sa na srodku po zmniejszeniu szerkosci, nie centruje idealnie na srodku -->
+            <div class="col-6 ">
+               <button  class="programContainer__calculateButton btn btn-light ">Calculate</button> 
+            </div>
+            <div class="col-6 ml-4">
+              <button class="programContainer_resetButton btn btn-light ">Reset</button>
+            </div>
+          </div>
+        </div>
+
+        <div  class="col-12 col-lg-6 col-xl-6 align-items-start">
+          <div  class="row justify-content-center  mx-4 mt-4"><span class="programContainer__spanResult">RESULT</span>
+            <div  class="col-12  my-4 ">
+              <div class="programContainer__divResult row justify-content-start "></div>
+            </div>
+          </div>
+        </div> 
+      </div>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 px-0"> 
+              <canvas class="myChart" ></canvas>            
+          </div>
+          </div>
+        </div>
+    </section>
+    
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="../Scripts/quadratic_equation.ts"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+  </body>
+</html>

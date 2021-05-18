@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d9f1ff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #f86e6e;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.0rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+#mainNavbar {
+  font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ffd7d7;
+  font-size: 1.4rem;
+}
+
+#mainNavbar .navbar-brand:hover {
+  color: white;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #fcc7c7;
+}
+
+.dropdown-menu {
+  background-color: #2c2c2c;
+}
+
+.dropdown-item {
+  color: white;
+  font-weight: 100;
+}
+
+.dropdown-item:hover {
+  color: #f86e6e;
+}
+
+.nav-empty-space {
+  height: 60px;
+}
+
+#passage-about-me {
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #502d2d;
+}
+
+#passage-about-me h1 {
+  font-size: 3.5rem;
+  color: #f86e6e;
+}
+
+@media screen and (max-width: 1280px) {
+  #passage-about-me {
+    font-size: 1.8rem;
+  }
+  #passage-about-me h1 {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #passage-about-me {
+    font-size: 1.3rem;
+  }
+  #passage-about-me h1 {
+    font-size: 2.0rem;
+  }
+}
+
+.div-functionDefinition {
+  padding: 4px 0;
+  background-color: #afd3e9;
+  line-height: 30px;
+}
+
+.div-functionDefinition sup {
+  font-size: 0.85rem;
+}
+
+.programContainer {
+  background-color: #c7e9fd;
+  padding: 24px 0;
+  color: black;
+  font-weight: 300;
+}
+
+.programContainer div > label {
+  margin: 0 24px;
+}
+
+.programContainer div label:nth-child(3) {
+  margin-right: 25px;
+  padding: 100px;
+  background-color: saddlebrown;
+}
+
+.programContainer div > input {
+  margin-left: 24px;
+}
+
+.programContainer .programContainer__calculateButton {
+  margin: 0 14px 24px;
+}
+
+.programContainer .programContainer_resetButton {
+  margin: 0 14px;
+}
+
+.programContainer .programContainer__spanResult {
+  font-size: 2.0rem;
+}
+
+.programContainer .programContainer__divResult {
+  background-color: white;
+  height: 50px;
+  padding: 16px;
+  border: 1px solid  black;
+}
+
+.myChart {
+  width: 100%;
+  height: 600px;
+  background-color: #d9f1ff;
+}
+/*# sourceMappingURL=style.css.map */
